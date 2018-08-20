@@ -1,0 +1,41 @@
+{
+  "cities": [
+    {
+      "city": "test",
+      "state": "test",
+      "why": "test",
+      "id": 1
+    },
+    {
+      "city": "LA",
+      "state": "California",
+      "why": "Death Row",
+      "id": 2
+    },
+    {
+      "city": "LA",
+      "state": "California",
+      "why": "Death Row",
+      "id": 3
+    },
+    {
+      "city": "clear",
+      "state": "clear",
+      "why": "clear",
+      "id": 4
+    },
+    {
+      "city": "clear",
+      "state": "clear",
+      "why": "clear",
+      "id": 5
+    },
+    {
+      "city": "LBC",
+      "state": "california",
+      "why": "dogg pound",
+      "id": 6
+    }
+  ],
+  "POI": []
+}

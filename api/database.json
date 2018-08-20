@@ -35,6 +35,24 @@
       "state": "california",
       "why": "dogg pound",
       "id": 6
+    },
+    {
+      "city": "clear",
+      "state": "clear",
+      "why": "clear",
+      "id": 7
+    },
+    {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "why": "Boomerang",
+      "id": 8
+    },
+    {
+      "city": "print",
+      "state": "print",
+      "why": "print",
+      "id": 9
     }
   ],
   "POI": []

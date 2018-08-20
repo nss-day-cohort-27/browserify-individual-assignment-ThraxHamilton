@@ -8,8 +8,8 @@ let dataManager = Object.create(null, {
                 },
                 body: JSON.stringify(entry)
             })
-            // console.log(saveCityInfo)
-            .then(response => response.json())
+                // console.log(saveCityInfo)
+                .then(response => response.json())
         }
     },
     getCityInfo: {
@@ -19,6 +19,21 @@ let dataManager = Object.create(null, {
                 .then(response => response.json())
         }
 
-    }})
+    },
+
+    delCityEntries: {
+        value: (cityid) => {
+            // Must fetch from local host, but target ID given when you save.
+            return fetch(`http://localhost:8088/entries/${cityid}`, {
+                // Delete method
+                method:"DELETE"
+            })
+                .then(response => response.json())
+        }
+    },
+})
+
+
+
 
 module.exports = dataManager

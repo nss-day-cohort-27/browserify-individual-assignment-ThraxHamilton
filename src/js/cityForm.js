@@ -1,10 +1,11 @@
 const cityForm = Object.create(null, {
-    // clearForm: {
-    //     value: () => {
-    //         document.querySelector("#username").value = ""
-    //         document.querySelector("#email").value = ""
-    //     }
-    // },
+    clearForm: {
+        value: () => {
+            document.querySelector("#cityName").value = ""
+            document.querySelector("#cityState").value = ""
+            document.querySelector("#cityWhy").value = ""
+        }
+    },
     createNewForm: {
         value: () => {
             return  `

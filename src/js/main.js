@@ -5,7 +5,6 @@ const cityEntry = require('./cityEntry')
 
 // Put city form on page
 document.querySelector("#cityForm").innerHTML = cityForm.createNewForm()
-// List cities
 cityList()
 
 // Save cities to API
@@ -15,19 +14,26 @@ document.querySelector("#saveCityButton").addEventListener("click", () => {
         state: document.querySelector("#cityState").value,
         why: document.querySelector("#cityWhy").value
     }
+    // API function
     dataManager.saveCityInfo(newCity).then(() => {
         // Clear form after submit
         cityForm.clearForm()
+        // List cities after saving
+        cityList()
     })
 })
-// Delete city button
-document.querySelector('#cityList').addEventListener('click', (cityID) => {
-    if (cityID.target.id.startsWith("deleteCityButton")) {
-        // let deleteCity = document.querySelector('#cityList')
-        let deleteCity = event.target.id.split("--")[0]
+
+// Add event listener to delete button in cityEntry.js
+document.querySelector("#cityList").addEventListener("click", (event) => {
+    // If statement to target delete button
+    if (event.target.id.startsWith("deleteButton")){
+        // Split method...vvv vvv vvv vvv vvv vvv vvv
+        let deleteCity = event.target.id.split("--")[1]
+        // Console log
         console.log(deleteCity)
+        // Delete from API. (idk if I'm gonna keep that)
         dataManager.delCityEntries(deleteCity).then(() => {
+            cityList()
         })
-        
     }
-})
+    })

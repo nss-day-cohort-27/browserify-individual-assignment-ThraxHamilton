@@ -24,7 +24,7 @@ let dataManager = Object.create(null, {
     delCityEntries: {
         value: (cityid) => {
             // Must fetch from local host, but target ID given when you save.
-            return fetch(`http://localhost:8088/entries/${cityid}`, {
+            return fetch(`http://localhost:8088/cities/${cityid}`, {
                 // Delete method
                 method:"DELETE"
             })

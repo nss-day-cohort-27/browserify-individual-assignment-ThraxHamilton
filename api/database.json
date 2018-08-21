@@ -5,7 +5,38 @@
       "state": "NC",
       "why": "peace.",
       "id": 1
+    },
+    {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "why": "ATL hoe",
+      "id": 2
+    },
+    {
+      "city": "1",
+      "state": "1",
+      "why": "1",
+      "id": 3
     }
   ],
-  "POI": []
+  "POI": [
+    {
+      "place": "TOPO",
+      "location": "Chapel Hill, NC",
+      "why": "shits lit",
+      "id": 1
+    },
+    {
+      "place": "The Library",
+      "location": "Chapel Hill, NC",
+      "why": "shits hype",
+      "id": 2
+    },
+    {
+      "place": "1",
+      "location": "1",
+      "why": "1",
+      "id": 3
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 const createPoiEntry = require('./poiEntry')
 const dataManager = require('./dataManager')
-// Make new variable to target poiList in index.html
+
+// Make new variable that holds poiList in index.html
 let poiOutput = document.querySelector('#poiList')
 // New function 
 function listPoi(){

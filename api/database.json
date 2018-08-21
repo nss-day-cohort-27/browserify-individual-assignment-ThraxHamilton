@@ -13,10 +13,10 @@
       "id": 2
     },
     {
-      "city": "1",
-      "state": "1",
-      "why": "1",
-      "id": 3
+      "city": "Durham",
+      "state": "North Carolina",
+      "why": "Duke University",
+      "id": 4
     }
   ],
   "POI": [
@@ -33,10 +33,10 @@
       "id": 2
     },
     {
-      "place": "1",
-      "location": "1",
-      "why": "1",
-      "id": 3
+      "place": "Arcana",
+      "location": "Durham, NC",
+      "why": "Craig plays soul 45s all night",
+      "id": 4
     }
   ]
 }

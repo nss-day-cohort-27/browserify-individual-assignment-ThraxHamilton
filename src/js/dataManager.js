@@ -1,3 +1,4 @@
+// One function to hold all data functions
 let dataManager = Object.create(null, {
     // ---------------------- Cities Cities Cities Cities -----------------------------------
     saveCityInfo: {

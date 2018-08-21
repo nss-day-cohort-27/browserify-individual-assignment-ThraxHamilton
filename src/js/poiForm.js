@@ -1,4 +1,6 @@
+// Function to make/clear form 
 const poiForm = Object.create(null, {
+    // Clear form
     clearForm: {
         value: () => {
             document.querySelector("#poiName").value = ""
@@ -6,9 +8,11 @@ const poiForm = Object.create(null, {
             document.querySelector("#poiWhy").value = ""
         }
     },
+    // Make form with HTML
     createNewForm: {
         value: () => {
             return  `
+            <div class='poi-form'>
             <fieldset>
                 <label for="poiName">Place: </label>
                 <input required type="text" id="poiName">
@@ -18,11 +22,13 @@ const poiForm = Object.create(null, {
                 <input required type="text" id="poiWhere">
             </fieldset>
             <fieldset>
-                <label for="poiWhy">Why: </label>
+                <label for="poiWhy">Why Do You Love It There?: </label>
                 <textarea id="poiWhy" id='poiWhy'></textarea>
                 </fieldset>
-            <button id="savePoiButton">Add Place of Interest</button>`
+            <button id="savePoiButton">Add Place of Interest</button>
+            </div>`
         }
     }
 })
+// Export
 module.exports = poiForm

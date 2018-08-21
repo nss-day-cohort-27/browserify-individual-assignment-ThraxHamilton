@@ -1,9 +1,14 @@
+// Created "Main" sub-pages and required them insead for more modular and less clutter
 const cityForm = require('./cityForm')
 const cityList = require('./cityList')
 const poiForm = require('./poiForm')
 const poiList = require('./poiList')
+// Function inside holds eventListener
 const addCityListner = require('./cityMain')
+// Function inside holds eventListener
 const addPoiListener = require('./poiMain')
+
+
 // Put city form on page
 document.querySelector("#cityForm").innerHTML = cityForm.createNewForm()
 // Put POI form on page

@@ -33,6 +33,7 @@ const cityForm = Object.create(null, {
                 <textarea id="cityWhy" id='cityWhy'></textarea>
                 </fieldset>
             <button id="saveCityButton">Add Your City!</button>
+            <input type=button onClick"parent.location='google.com'" value= 'Add an Image'        
             </div>`
         }
     }

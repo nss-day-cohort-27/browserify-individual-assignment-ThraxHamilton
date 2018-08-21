@@ -19,15 +19,21 @@ const cityForm = Object.create(null, {
                 <label for="cityTitle">City: </label>
                 <input required type="text" id="cityName">
             </fieldset>
+
+            
             <fieldset>
                 <label for="cityState">State/Country:</label>
                 <input required type="text" id="cityState">
             </fieldset>
+
+
+
             <fieldset>
                 <label for="cityWhy">Why is it one of your favorites?: </label>
                 <textarea id="cityWhy" id='cityWhy'></textarea>
                 </fieldset>
             <button id="saveCityButton">Add Your City!</button>
+            <input type=button onClick"parent.location='google.com'" value= 'Add an Image'        
             </div>`
         }
     }

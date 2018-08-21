@@ -17,6 +17,12 @@
       "state": "North Carolina",
       "why": "Duke University",
       "id": 4
+    },
+    {
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "why": "EDC '16 was hype",
+      "id": 6
     }
   ],
   "POI": [
@@ -37,6 +43,12 @@
       "location": "Durham, NC",
       "why": "Craig plays soul 45s all night",
       "id": 4
+    },
+    {
+      "place": "Slim and Huskys",
+      "location": "Antioch, TN",
+      "why": "Trillest pizza experience ever",
+      "id": 5
     }
   ]
 }

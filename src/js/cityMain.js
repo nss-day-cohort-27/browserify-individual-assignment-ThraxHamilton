@@ -1,8 +1,9 @@
 const dataManager = require('./dataManager')
 const cityList = require('./cityList')
 const cityForm = require('./cityForm')
-
+// Make function to hold city eventlistener
 function addCityListener() {
+    // Actual eventlistener
     document.querySelector("#saveCityButton").addEventListener("click", () => {
         const newCity = {
             city: document.querySelector("#cityName").value,
@@ -17,6 +18,7 @@ function addCityListener() {
             cityList()
         })
     })
+    // Eventlistener for delete button
     document.querySelector("#cityList").addEventListener("click", (event) => {
         // If statement to target delete button
         if (event.target.id.startsWith("deleteButton")){

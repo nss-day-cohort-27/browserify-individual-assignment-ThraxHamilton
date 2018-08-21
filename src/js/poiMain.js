@@ -1,8 +1,9 @@
 const dataManager = require('./dataManager')
 const poiList = require('./poiList')
 const poiForm = require('./poiForm')
-
+// Make new function to hold eventlistenr for POI button(s)
 function addPoiListener() {
+    // Add eventlistener
     document.querySelector('#savePoiButton').addEventListener('click', () => {
         const newPoi = {
             place: document.querySelector("#poiName").value,
@@ -17,6 +18,7 @@ function addPoiListener() {
             poiList()
         })
     })
+    // Eventlistener for delete button
     document.querySelector("#poiList").addEventListener("click", (event) => {
         // If statement to target delete button
         if (event.target.id.startsWith("deletePoiButton")){

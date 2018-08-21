@@ -18,7 +18,7 @@ const cityForm = Object.create(null, {
                 <input required type="text" id="cityState">
             </fieldset>
             <fieldset>
-                <label for="cityWhy">Details: </label>
+                <label for="cityWhy">Why is it one of your favorites?: </label>
                 <textarea id="cityWhy" id='cityWhy'></textarea>
                 </fieldset>
             <button id="saveCityButton">Add City</button>`

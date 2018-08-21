@@ -25,7 +25,7 @@ const poiForm = Object.create(null, {
                 <label for="poiWhy">Why Do You Love It There?: </label>
                 <textarea id="poiWhy" id='poiWhy'></textarea>
                 </fieldset>
-            <button id="savePoiButton">Add Place of Interest</button>
+            <button id="savePoiButton">Add a Favorite Place!</button>
             </div>`
         }
     }

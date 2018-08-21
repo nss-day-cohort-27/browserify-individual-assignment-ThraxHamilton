@@ -11,6 +11,9 @@ const addPoiListener = require('./poiMain')
 
 // Put city form on page
 document.querySelector("#cityForm").innerHTML = cityForm.createNewForm()
+document.querySelector('#addImageButton').addEventListener('click', () => {
+    
+})
 // Put POI form on page
 document.querySelector('#poiForm').innerHTML = poiForm.createNewForm()
 // Show city list when page loads
